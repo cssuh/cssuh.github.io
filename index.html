@@ -4,14 +4,20 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+
+		<!--
 		<link rel = "stylesheet"
 			  type = "text/css"
 			  href = "style.css"
 			/>
+		-->
 
-    	<script type = "text/javascript"  src = "jquery-2.2.3.min.js"> </script>
+    	<script src = "jquery-3.1.1.min.js"> </script>
+		<!--
 		<script src = "chris.js">
-		
+		-->
+		<script src="js/bootstrap.min.js">
 		</script>
 		<script>
 			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -27,7 +33,42 @@
 
 	</head>
 	<body>
+		<nav class="nav navbar-inverse navbar-static-top">
+			<div class="container">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="index.html">The Suh Code</a>
+				</div>
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="#">Home</a></li>
+					<li><a href="projects.html">Projects</a></li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li class="active"></li>
+					<li class="dropdown">
+						<a class="dropdown-toggle" data-toggle="dropdown" href="#">Links
+							<span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li><a href="https://www.linkedin.com/in/christopher-suh-341253112" target="_blank">LinkedIn</a></li>
+								<li><a href="https://github.com/cssuh" target="_blank">Github</a></li>
+							</ul>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<div class="jumbotron">
+			<div class="container">
+				<h1>Christopher Suh</h1>
+				<p>An aspring software developer who loves to code. How good does it get?</p>
+				<br>
+				<!-- TODO: assign link for "learn more" -->
+				<a class="btn btn-primary btn-lg" href="#" role="button">Learn More »</a>
+			</div>
+		</div>
+
+
+
 		<!--NAVBAR-->
+		<!--
 		<ul class= "navbar">
 			<li><a href="index.html">Home</a></li>
 			<li><a href="projects.html">Projects</a></li>
@@ -71,8 +112,9 @@
 					software and network solutions.  I love working on projects and am interested in contributing to open source projects 
 					in my free time.
 				</p>
-
+			-->
 			<!-- Spacing -->
+			<!--
 			<p><br></p>
 
 				<h1>
@@ -96,7 +138,7 @@
 			</div>
 		</div>
 		<script src="../../bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
-	
+	-->
 	</body>
 
 	</html>
